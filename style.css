@@ -258,11 +258,11 @@ button:hover {
   }
 }
 	.image-container {
-			
+			float:right;
             border: 2.5px solid red;
-            padding: 6px;
-            width: 380px;
-            height: 190px;
+            padding: 5px;
+            width: 150px;
+            height: 200px;
         }
         .image-container img {
             max-width: 100%; /* Makes image responsive within the container */
@@ -270,7 +270,19 @@ button:hover {
             display: block; /* Helps with alignment if needed */
         }
 		
+		.image1-container {
+            border: 2.5px solid red;
+            padding: 5px;
+            width: 150px;
+            height: 200px;
+			float: right;
+        }
 		
+        .image1-container img {
+            max-width: 100%; /* Makes image responsive within the container */
+            height: auto;
+            display: block; /* Helps with alignment if needed */
+        }
 		
 		.image3-container {
 			float:top;
@@ -286,6 +298,7 @@ button:hover {
             display: block;
         }
 		
+
 
 
 
